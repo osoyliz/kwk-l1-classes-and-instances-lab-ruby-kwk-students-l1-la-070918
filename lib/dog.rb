@@ -1,10 +1,10 @@
 # dog.rb
 class Dog
-  attr_accessor :name_1, :name_2, :name_3
+  attr_accessor :fido, :snoopy, :lassie
   
-  def initialize(name_1, name_2, name_3)
-    @name_1 = name_1
-    @name_2 = name_2
-    @name_3 = name_3
+  def initialize(fido, snoopy, lassie)
+    @fido = fido
+    @snoopy = snoopy
+    @lassie = lassie
   end
 end
